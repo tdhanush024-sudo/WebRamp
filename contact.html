@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - WebRamp</title>
+    <meta name="description" content="Get in touch with WebRamp. Contact us for digital marketing, data analytics, medical billing, and cloud solutions. We're here to help your business grow.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <i class="fas fa-rocket"></i>
+                    <span>WebRamp</span>
+                </div>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="digital-suite.html" class="nav-link">Digital Suite</a>
+                <a href="clients.html" class="nav-link">Clients</a>
+                <a href="careers.html" class="nav-link">Careers</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="nav-cta" onclick="window.location.href='contact.html'">Request Consultation</button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="hero-bg">
+            <div class="floating-elements">
+                <div class="element element-1"></div>
+                <div class="element element-2"></div>
+                <div class="element element-3"></div>
+                <div class="element element-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contact-hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">📞</span>
+                    <span class="badge-text">GET IN TOUCH</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-main">Let's Start</span>
+                    <span class="title-accent">Your Project</span>
+                </h1>
+                <p class="hero-description">
+                    Ready to transform your business with our digital solutions? 
+                    Get in touch with our experts and let's discuss how we can help you achieve your goals.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Support</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">2hrs</div>
+                        <div class="stat-label">Response Time</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>Speak directly with our experts</p>
+                    <a href="tel:9994245778" class="contact-link">9994245778</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>Send us your requirements</p>
+                    <a href="mailto:tdhanush014@gmail.com" class="contact-link">tdhanush014@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>Our office location</p>
+                    <span class="contact-link">Chennai, India</span>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Business Hours</h3>
+                    <p>We're available when you need us</p>
+                    <span class="contact-link">Mon - Fri: 9:00 AM - 6:00 PM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-header">
+                    <div class="header-badge">
+                        <span class="badge-dot"></span>
+                        <span class="badge-text">SEND US A MESSAGE</span>
+                    </div>
+                    <h2 class="section-title">
+                        <span class="title-main">Get Your</span>
+                        <span class="title-accent">Free Consultation</span>
+                    </h2>
+                    <p class="section-description">
+                        Fill out the form below and our team will get back to you within 2 hours. 
+                        We're excited to help you grow your business!
+                    </p>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="website">Website URL</label>
+                            <input type="url" id="website" name="website">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Service Interested In *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="digital-marketing">Digital Marketing</option>
+                            <option value="data-analytics">Data Analytics</option>
+                            <option value="medical-billing">Medical Billing</option>
+                            <option value="cloud-solutions">Cloud Solutions</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="consultation">General Consultation</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="budget">Project Budget</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select budget range</option>
+                            <option value="under-10k">Under ₹10,000</option>
+                            <option value="10k-25k">₹10,000 - ₹25,000</option>
+                            <option value="25k-50k">₹25,000 - ₹50,000</option>
+                            <option value="50k-100k">₹50,000 - ₹1,00,000</option>
+                            <option value="over-100k">Over ₹1,00,000</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Project Description *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us about your project, goals, and how we can help you..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Subscribe to our newsletter for digital marketing tips and updates</label>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the <a href="#" class="terms-link">Terms of Service</a> and <a href="#" class="terms-link">Privacy Policy</a> *</label>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary submit-btn">
+                        <span class="btn-icon">🚀</span>
+                        <span class="btn-text">Send Message</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <div class="header-badge">
+                    <span class="badge-dot"></span>
+                    <span class="badge-text">WHY CHOOSE US</span>
+                </div>
+                <h2 class="section-title">
+                    <span class="title-main">Why Work</span>
+                    <span class="title-accent">With Us?</span>
+                </h2>
+                <p class="section-description">
+                    We're not just another digital agency. We're your strategic partners in growth.
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Fast Results</h3>
+                    <p>See measurable improvements in your digital presence within 30 days of working with us.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>100% Secure</h3>
+                    <p>Your data and business information are completely secure with our enterprise-grade security.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Proven ROI</h3>
+                    <p>Our clients see an average 300% increase in their digital marketing ROI within 6 months.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock support to ensure your campaigns run smoothly and your business grows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <i class="fas fa-rocket"></i>
+                            <span>WebRamp</span>
+                        </div>
+                        <p>Empowering businesses with innovative solutions for sustainable growth.</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="digital-suite.html">Digital Marketing</a></li>
+                        <li><a href="digital-suite.html">Data Analytics</a></li>
+                        <li><a href="digital-suite.html">Medical Billing</a></li>
+                        <li><a href="digital-suite.html">Cloud Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="clients.html">Clients</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> <a href="tel:9994245778">9994245778</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:tdhanush014@gmail.com">tdhanush014@gmail.com</a></p>
+                        <p><i class="fas fa-map-marker-alt"></i> tiruppur,india</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WebRamp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+

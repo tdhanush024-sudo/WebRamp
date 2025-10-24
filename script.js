@@ -1,7 +1,14 @@
+// Import Firebase configuration
+import { app, analytics } from './firebase-config.js';
+import { getStorage } from "firebase/storage";
+
 // WebRamp - Professional Website JavaScript
 document.addEventListener('DOMContentLoaded', function() {
     console.log('WebRamp Website Loading...');
     
+    // Initialize Firebase Storage
+    const storage = getStorage(app);
+
     // Mobile Navigation Toggle
     const navToggle = document.getElementById('nav-toggle');
     const navMenu = document.getElementById('nav-menu');

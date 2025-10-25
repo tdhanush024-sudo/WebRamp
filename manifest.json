@@ -1,6 +1,6 @@
 {
-    "name": "WebRamp",
-    "short_name": "WebRamp",
+    "name": "Indiquer Global Services",
+    "short_name": "Indiquer",
     "description": "Leading provider of Digital marketing, Medical Billing, IT, and Business Solutions",
     "start_url": "/",
     "display": "standalone",
